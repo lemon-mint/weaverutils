@@ -11,6 +11,15 @@ import (
 
 const WeaverFastCacheDefaultSize = 32 * 1 << 20 // 32MB
 
+// WeaverFastCache is a FastCache component for Service Weaver.
+//
+// https://github.com/VictoriaMetrics/fastcache
+//
+// Configuration Options:
+//
+// ["gopkg.eu.org/weaverutils/WeaverFastCache"]
+//
+// Size = 33554432
 type WeaverFastCache interface {
 	Get(_ context.Context, key []byte) ([]byte, error)
 	Set(_ context.Context, key []byte, value []byte) error
