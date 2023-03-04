@@ -1,5 +1,7 @@
 # WeaverUtils
 
+[![Go Reference](https://img.shields.io/badge/go-reference-%23007d9c?style=for-the-badge&logo=go)](https://pkg.go.dev/gopkg.eu.org/weaverutils)
+
 Service Weaver Utilities
 
 ## Installation
