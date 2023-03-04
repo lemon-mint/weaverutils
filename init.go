@@ -1,0 +1,3 @@
+package weaverutils
+
+//go:generate weaver generate ./...
